@@ -9,20 +9,26 @@
 <body>
 <div class="weather-app">
   <header>
-  <form>
-    <input type="search" placeholder="Enter a city..." required />
-    <input type="submit" value="Search" />
+  <form class "search-form">
+    <input type="search" placeholder="Enter a city..." required class="search-form-input" />
+    <input type="submit" value="Search" class="submit-form-button" />
   </form>
 </header>
   <main> 
-      <div class="weather-app">
-    <h1>Paris</h1>
-    <p>
+ <div class="weather-app-data"> 
+   <div> <h1 class = "weather-app-city">Paris</h1>
+  <p class=" weather-app-details">
 Thursday 17:06, scattered clouds 
 <br />
-Humidity: 84%, Wind: 4.12km/h
+Humidity: <strong> 66%</strong>, Wind: <strong> 3.13km/h</strong>
     </p> 
-   <div>🌤️ 12 °F</div>
+   </div>
+   <div class ="weather-app-temperature-container">
+    <div class =" weather-app-icon">🌤️</div>
+    <div class ="weather-app-temperature"> 12</div>
+    <div class = "weather-app-unit">°F</div>
+    </div>
+    </div>
   </main>
   <footer>
   This project was coded by 
