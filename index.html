@@ -8,15 +8,21 @@
 </head>
 <body>
 <div class="weather-app">
-  <header>
-  <form class "search-form">
-    <input type="search" placeholder="Enter a city..." required class="search-form-input" />
+    <header>
+     <form class "search-form" id="search-form">
+    <input type="search" 
+    placeholder="Enter a city...
+    " required 
+    id="search-form-input"
+    class="search-form-input" 
+    />
+    
     <input type="submit" value="Search" class="submit-form-button" />
   </form>
 </header>
   <main> 
  <div class="weather-app-data"> 
-   <div> <h1 class = "weather-app-city">Paris</h1>
+   <div> <h1 class = "weather-app-city" id="city">Paris</h1>
   <p class=" weather-app-details">
 Thursday 17:06, scattered clouds 
 <br />
@@ -25,17 +31,18 @@ Humidity: <strong> 66%</strong>, Wind: <strong> 3.13km/h</strong>
    </div>
    <div class ="weather-app-temperature-container">
     <div class =" weather-app-icon">🌤️</div>
-    <div class ="weather-app-temperature"> 12</div>
-    <div class = "weather-app-unit">°F</div>
-    </div>
-    </div>
-  </main>
+    <div class ="weather-app-temperature"> 12</div>    <div class = "weather-app-unit">°F</div>
+  </div>
+  </div>
+  </main>  
+  
   <footer>
   This project was coded by 
   <a href="https://github.com/Alexismarie20" target="blank"> Alexis Hepler </a>
    is <a href="https://github.com/Alexismarie20/Forecast"target="blank"> open-sourced on GitHub</a>
    and <a href="https://heplers-forecast-app.netlify.app/" target=" blank">hosted on Netlify</a>
-    </footer>
-</div>
+  </footer>
+  </div>
+ <script src="src/script.js"></script>
 </body>
 </html>
